@@ -1,8 +1,11 @@
+import img1 from "./ColorWheel.png";
+
+
 const Header = () => {
     return (
         <header>
             <div class="banner">
-            <img src="./ColorWheel.png" alt="colorwheel" class="banner-img"/>
+            <img src={img1} alt="co2-img" />
             <div class="banner-text">
                 <h1>THE GLOBAL GOALS</h1>
                 <h2>For sustainable Development</h2>
