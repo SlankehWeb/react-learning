@@ -1,22 +1,24 @@
-const Formula = () => {
-    return(
-        <div class="div2"> 
-        <form>
-  <input type="text" id="fname" name="fname" placeholder="Indtast dit fulde navn"/>
- <br/>
-  <input type="email" placeholder="Indtast gyldig E-Mail"/>
-  <br/>
-  <input type="tel" id="phone" name="phone"
-       pattern="[0-9]{8}"
-       required placeholder="Indtast Telefonnummer"/>
-  <br/>
-  <input type="text" id="textfield" name="textfield" placeholder="Ext. Besked"/>
-  <br/>
-  <input type="reset" value="Reset"/>
-  <input type="submit" value="Submit"/>
-</form>
-        </div>
-    )
-}
+import Buttons from "./formula-parts/buttons";
+import Email from "./formula-parts/email";
+import Fullname from "./formula-parts/fullname";
+import Number from "./formula-parts/phonenumber";
+import Textfield from "./formula-parts/textfield";
 
-export default Formula
+const Formula = () => {
+  return (
+    <div class="div2">
+      <form>
+        <Fullname />
+        <Email> /</Email>
+        <br />
+        <Number />
+        <br />
+        <Textfield />
+        <br />
+        <Buttons />
+      </form>
+    </div>
+  );
+};
+
+export default Formula;

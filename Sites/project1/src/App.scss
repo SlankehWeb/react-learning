@@ -4,8 +4,8 @@
 @import "./Components/News/news.scss";
 @import "./Components/Footer/footer.scss";
 @import "./Components/Form/form.scss";
-
-*{
-    margin: 0;
-    padding: 0;
+@import "./global-styles/global.scss";
+* {
+  margin: 0;
+  padding: 0;
 }
