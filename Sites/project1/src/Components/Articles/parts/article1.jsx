@@ -1,6 +1,6 @@
 const Article1 = () => {
   return (
-    <div class="div1">
+    <div className="div1">
       <h2>DE 17 VERDENSMÅL</h2>
       <p>
         På FN topmødet i New York i 2015 vedtog verdens stats- og

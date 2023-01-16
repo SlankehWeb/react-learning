@@ -3,11 +3,11 @@ import Ressourcer from "./parts/ressourcer";
 
 const Footer = () => {
   return (
-    <div class="footer">
-      <div class="parent">
+    <div className="footer">
+      <div className="parent">
         <EksterneLinks />
         <Ressourcer />
-        <div class="div3">
+        <div className="div3">
           <img src={require("./img/Partner-UNDP-Full.png")} alt="" />
         </div>
       </div>

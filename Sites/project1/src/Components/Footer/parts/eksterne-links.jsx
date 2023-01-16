@@ -1,6 +1,6 @@
 const EksterneLinks = () => {
   return (
-    <div class="div1">
+    <div className="div1">
       <h2>Eksterne Links:</h2>
       <p>
         <a href="https://www.verdensmaalene.dk/">

@@ -1,6 +1,6 @@
 const Ressourcer = () => {
   return (
-    <div class="div2">
+    <div className="div2">
       <h2>Ressourcer:</h2>
       <p>Bliver Verden Bedre</p>
       <p>Spotlight Rapport</p>

@@ -1,6 +1,6 @@
 const LeaveNoOne = () => {
   return (
-    <div class="div4">
+    <div className="div4">
       <h3>Leave no-one behind.</h3>
       <p>
         I 2030-dagsordenen er inkluderet princippet om ”leave no one behind”.

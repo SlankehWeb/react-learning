@@ -5,19 +5,19 @@ import Vækst from "./parts/vækst-vs-B";
 
 const News = () => {
   return (
-    <div class="news">
-      <div class="parent">
+    <div className="news">
+      <div className="parent">
         <Udfordringer />
         <Vækst />
-        <div class="div3">
+        <div className="div3">
           <img src={require("./img/Image-Sustainability.jpg")} alt="" />
         </div>
         <LeaveNoOne />
-        <div class="div5">
+        <div className="div5">
           <img src={require("./img/Image-Leave-No-One.jpg")} alt="" />
         </div>
         <Fattigdom />
-        <div class="div7">
+        <div className="div7">
           <img src={require("./img/Image-Hunger.jpg")} alt="" />
         </div>
       </div>

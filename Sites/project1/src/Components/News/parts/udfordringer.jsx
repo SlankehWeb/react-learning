@@ -1,6 +1,6 @@
 const Udfordringer = () => {
   return (
-    <div class="div1" id="udfordringer">
+    <div className="div1" id="udfordringer">
       <h2>UDFORDRINGER</h2>
       <p>
         Der er en lang række faktorer der har indvirkning på opfyldelsen af de

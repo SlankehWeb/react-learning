@@ -1,6 +1,6 @@
 const Article3 = () => {
   return (
-    <div class="div3">
+    <div className="div3">
       <h3>Verdensmålene gælder alle.</h3>
       <p>
         Målene gælder alle lande - både rige og fattige - dvs. de er

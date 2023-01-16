@@ -5,8 +5,8 @@ import Article4 from "./parts/article4";
 
 const Articels = () => {
   return (
-    <div class="article" id="verdensmålene">
-      <div class="parent">
+    <div className="article" id="verdensmålene">
+      <div className="parent">
         <Article1 />
         <Article2 />
         <Article3 />

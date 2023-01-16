@@ -1,6 +1,6 @@
 const Fattigdom = () => {
   return (
-    <div class="div6">
+    <div className="div6">
       <h3>Fattigdom og sult.</h3>
       <p>
         Det første af FN’s verdensmål handler om at afskaffe verdens fattigdom

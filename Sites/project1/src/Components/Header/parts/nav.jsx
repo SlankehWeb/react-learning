@@ -1,8 +1,8 @@
 const Nav = () => {
   return (
-    <div class="nav">
+    <div className="nav">
       <input type="checkbox" id="nav-check" />
-      <div class="nav-btn">
+      <div className="nav-btn">
         <label for="nav-check">
           <span></span>
           <span></span>
@@ -10,8 +10,8 @@ const Nav = () => {
         </label>
       </div>
 
-      <div class="nav-links">
-        <a class="#" href="#verdensmålene">
+      <div className="nav-links">
+        <a className="#" href="#verdensmålene">
           verdensmålene
         </a>
         <a href="#delmålene">delmålene</a>

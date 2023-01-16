@@ -1,6 +1,6 @@
 const Article2 = () => {
   return (
-    <div class="div2">
+    <div className="div2">
       <h3>Verdensmålene forpligter.</h3>
       <p>
         Medlemslandende forpligter sig til helt at afskaffe fattigdom og sult i

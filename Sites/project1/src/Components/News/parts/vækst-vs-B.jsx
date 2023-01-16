@@ -1,6 +1,6 @@
 const Vækst = () => {
   return (
-    <div class="div2">
+    <div className="div2">
       <h3>Vækst vs. bæredygtighed.</h3>
       <p>
         En overordnet udfordring er, at der mangler et mere nuanceret syn på

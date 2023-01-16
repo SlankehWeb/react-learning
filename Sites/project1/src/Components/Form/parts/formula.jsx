@@ -6,7 +6,7 @@ import Textfield from "./formula-parts/textfield";
 
 const Formula = () => {
   return (
-    <div class="div2">
+    <div className="div2">
       <form>
         <Fullname />
         <Email> /</Email>

@@ -1,6 +1,6 @@
 const Article4 = () => {
   return (
-    <div class="div4" id="delmålene">
+    <div className="div4" id="delmålene">
       <h2>DELMÅLENE</h2>
       <p>
         FN's 17 Verdensmål er opdelt i 169 delmål. Delmålene er mere konkrete
